@@ -130,7 +130,7 @@ Python 3.12 is recommended.
 
 ## Live Application
 
-**Streamlit:** Deployment link coming soon.
+**Streamlit:** https://spamphishingdetector.streamlit.app/
 
 ## Technologies
 
