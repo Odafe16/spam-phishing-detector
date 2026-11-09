@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Development data
+data/raw/
+data/processed/
+
+# Local temporary files
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,109 @@
+{
+  "model_version": "v3",
+  "threshold": 0.5,
+  "evaluation_status": "retrospective_exploratory",
+  "validation": {
+    "Model": "V3 Histogram Gradient Boosting",
+    "Accuracy": 0.9091063156705457,
+    "Precision": 0.8735781605459864,
+    "Recall": 0.8661188980183664,
+    "F1": 0.8698325378205647
+  },
+  "exploratory_evaluation": {
+    "Model": "V3 HGB \u2014 Exploratory Evaluation",
+    "Accuracy": 0.9129426129426129,
+    "Precision": 0.8704184236133636,
+    "Recall": 0.8953953953953954,
+    "F1": 0.8827302631578947
+  },
+  "large_hostname_challenge": {
+    "Model": "V3 HGB \u2014 Large-Hostname Challenge",
+    "Accuracy": 0.5210348706411698,
+    "Precision": 0.9959821428571428,
+    "Recall": 0.5127556883475063,
+    "F1": 0.6769837657411621
+  },
+  "challenge_hostname_performance": [
+    {
+      "hostname": "cloudflare-ipfs.com",
+      "records": 3220,
+      "legitimate": 0,
+      "phishing": 3220,
+      "phishing_recall": 0.9953416149068323,
+      "false_positive_rate": null,
+      "false_positives": 0,
+      "false_negatives": 15
+    },
+    {
+      "hostname": "docs.google.com",
+      "records": 3165,
+      "legitimate": 0,
+      "phishing": 3165,
+      "phishing_recall": 0.0044233807266982625,
+      "false_positive_rate": null,
+      "false_positives": 0,
+      "false_negatives": 3151
+    },
+    {
+      "hostname": "ipfs.eth.aragon.network",
+      "records": 2180,
+      "legitimate": 0,
+      "phishing": 2180,
+      "phishing_recall": 0.9922018348623853,
+      "false_positive_rate": null,
+      "false_positives": 0,
+      "false_negatives": 17
+    },
+    {
+      "hostname": "cf-ipfs.com",
+      "records": 1354,
+      "legitimate": 0,
+      "phishing": 1354,
+      "phishing_recall": 0.1189069423929099,
+      "false_positive_rate": null,
+      "false_positives": 0,
+      "false_negatives": 1193
+    },
+    {
+      "hostname": "new.express.adobe.com",
+      "records": 949,
+      "legitimate": 0,
+      "phishing": 949,
+      "phishing_recall": 0.6227608008429927,
+      "false_positive_rate": null,
+      "false_positives": 0,
+      "false_negatives": 358
+    },
+    {
+      "hostname": "tinyurl.com",
+      "records": 932,
+      "legitimate": 282,
+      "phishing": 650,
+      "phishing_recall": 0.39384615384615385,
+      "false_positive_rate": 0.09574468085106383,
+      "false_positives": 27,
+      "false_negatives": 394
+    },
+    {
+      "hostname": "ipfs.io",
+      "records": 877,
+      "legitimate": 0,
+      "phishing": 877,
+      "phishing_recall": 0.3261117445838084,
+      "false_positive_rate": null,
+      "false_positives": 0,
+      "false_negatives": 591
+    },
+    {
+      "hostname": "sites.google.com",
+      "records": 658,
+      "legitimate": 0,
+      "phishing": 658,
+      "phishing_recall": 0.025835866261398176,
+      "false_positive_rate": null,
+      "false_positives": 0,
+      "false_negatives": 641
+    }
+  ],
+  "interpretation": "Development performance was relatively consistent, but the classifier showed substantial generalization weaknesses across unfamiliar hosting platforms."
+}

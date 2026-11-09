@@ -1,0 +1,44 @@
+{
+  "dataset": "Wangchuk 2026, Mendeley V1, DOI 10.17632/3jddhy2f6s.1",
+  "source_method": "Common Crawl CC-MAIN-2024-33 benign; PhishTank phishing",
+  "source_file_sha256": "fccce1a99282b3cd8a1fe08fa83350fe44f7afc4c8889a6d0a94ef9c4d7897e3",
+  "original_label_mapping": {
+    "0": "legitimate",
+    "1": "phishing"
+  },
+  "raw_rows": 149726,
+  "exact_url_duplicates_removed": 19950,
+  "malformed_hostname_urls_excluded": 2,
+  "clean_rows": 129774,
+  "label_counts_clean": {
+    "0": 74970,
+    "1": 54804
+  },
+  "unique_hostnames": 37352,
+  "mixed_label_hostnames": 25,
+  "split_seed": 42,
+  "split_policy": "hostname disjoint; size-aware greedy stratified by label",
+  "split_sizes": {
+    "train": 90840,
+    "val": 19467,
+    "test": 19467
+  },
+  "source_overlap_with_legitphish": {
+    "legitphish_available": true,
+    "exact_url_overlap": 16,
+    "shared_hostnames": 133,
+    "label_conflicts_in_exact_overlap": 0
+  },
+  "full_dataset_shortcut_diagnostic": {
+    "accuracy": 0.39895510656988303,
+    "precision": 0.407763515770387,
+    "recall": 0.9355703963214363,
+    "f1": 0.5679771360207371
+  },
+  "limitations": [
+    "The two classes come from different data collection sources and may retain source-specific artifacts.",
+    "Hostname separation does not ensure registrable-domain or URL-template separation.",
+    "Historical labels and URL-only features do not verify current website maliciousness.",
+    "Test partition must remain untouched until URL model selection is finalized."
+  ]
+}
