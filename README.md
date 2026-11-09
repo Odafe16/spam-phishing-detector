@@ -1,4 +1,5 @@
 # Spam & Phishing Detector
+[🚀 Launch Live Application](https://spamphishingdetector.streamlit.app/)
 
 A machine-learning application for detecting spam messages, phishing emails, and potentially malicious URLs using text classification and URL feature engineering.
 
@@ -130,7 +131,7 @@ Python 3.12 is recommended.
 
 ## Live Application
 
-**Streamlit:** https://spamphishingdetector.streamlit.app/
+**Try the application:** https://spamphishingdetector.streamlit.app/
 
 ## Technologies
 
